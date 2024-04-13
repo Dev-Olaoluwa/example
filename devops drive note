@@ -1,0 +1,41 @@
+objectives of devops
+the devOps main objectives is to make release of software fast, effifient and without bugs this is done by automating the process 
+DevOps engr automate software release process 
+
+github action
+Github action is a platform to automate devoloper workflows
+examples of workflow
+github is a platform for open source project 
+github is publicly available to use and contribute to a project 
+you can add new cintributor
+create  pull request 
+manage organizational task
+--to review pull request
+--check if bugg is fixed 
+--merge to master branch 
+then as a devops person you can build a CI/CD pipeline to do the followng
+--merge the code
+--test if it works
+--build
+--deployment
+--documentation 
+How github actions automate these workflows
+-- Listen to event ---- when something happens IN or TO your repository 
+things happening in your repository (Github Events) include 
+-PR created 
+-issues created 
+contributor joining 
+-issues created
+-merging pr
+-automating other apps 
+-- Triger workflow --- automatic actions are executed in your response 
+workflow can do the following 
+- sort
+-label
+-assign
+-reproduce if necessary
+all this are Github actions /workflow
+
+CI/CD with github actions
+common workflow for repository include 
+-commit code ---- test - build - push -deploy
